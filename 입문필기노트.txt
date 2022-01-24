@@ -7,4 +7,9 @@
 	- logback (요즘 많이 사용) // slf4j (인터페이스) 
 3. Test 관련
 	- Junit5 버전 많이 사용
-4. 
+
+
+4. 웰컴 페이지 관련
+	-. spring.io 가서 Spring Boot로 가서 static content >> Welcome Page
+	-. 즉 static에 index가 있냐 없냐로 확인
+	-. 
