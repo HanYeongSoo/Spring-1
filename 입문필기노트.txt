@@ -18,3 +18,21 @@
 	-. 빌드 할 프로젝트까지 cmd로 접근
 	-. gradlew build 입력 후 dir로 libs폴더가 있는지 확인
 	-. java -jar 프로젝트이름-0.0.1-SNAPSHOT.jar 입력 후 실행되는지 확인
+
+
+2022-01-25
+
+1. 정적 컨텐츠, MVC와 템플릿 엔진, API
+	- 정적 컨텐츠 >> html을 요청하면 반납해줌.
+	- MVC >>
+	- API => JSON관련 (vue나 react등등)
+
+
+
+
+
+
+
+
+
+
