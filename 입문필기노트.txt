@@ -24,8 +24,25 @@
 
 1. 정적 컨텐츠, MVC와 템플릿 엔진, API
 	- 정적 컨텐츠 >> html을 요청하면 반납해줌.
-	- MVC >>
-	- API => JSON관련 (vue나 react등등)
+
+	- MVC : Controller , View, Model 세 가지로 나눔.
+	- view 는 화면만 , controller에 비지니스 로직 , model은 그 데이터 전달
+	- 1. 웹 브라우져 요청 >> 2. Controller에서 return과 model전달 >> 3. viewResolver에서 templates/hello-template.html처리 >>
+		>> 4. 웹 브라우저로 반환
+
+2022-01-26
+	- API => JSON관련 (Vue나 React등등)
+	  1. @ResponseBody : return부분에 직접 데이터를 전달하겠다.
+	  2. static으로 만들면 그 class name.static으로 선언한 class가 사용 가능 ==> public class Controller이고 static class hello 이면 Controlle.hello
+		로 사용이 가능하다는 뜻!!
+	  3. JSON ==  key, value로 이루어진 구조 {"name" : "spring!!"} 
+	  4. Getter,Setter == 자바 빈 표준방식 (private에서 만들어지니까 게터랑 세터로만 접근이 가능, 자바의 캡슐화랑 관련)
+	  5. 요즘엔 객체가 들어오면 JSON방식으로 주는게 표준 --> @ResponseBody를 보는 순간 JsonConverter와 StringConverter가 반응
+	  6. 기본 객체처리 --> 잭슨(Jackson)과 Gson(구글이 만든거)
+	  7. 실무에선 거의 그대로 쓰기 때문에 이렇게 쓰는구나! 정도만 알고 있을것 지금은!
+	  
+
+
 
 
 
