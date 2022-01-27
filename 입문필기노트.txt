@@ -68,6 +68,7 @@
 	    1. 람다식
 	    2. Assertions
 	    3. TestCase 자체...?
+	    4. Optional<>은 또 뭐냐..
 
 	  - 테스트케이스 하나씩 할때는 잘 되던데 어라 전체를 돌리니까 에러가 뜨네?? why?
 	    .- 테스트케이스에서 테스트는 서로 의존관계가 있어선 안됨
@@ -76,7 +77,17 @@
 
 	6. 테스트는 진짜 중요하다고 하시네... 깊이 알면 좋대!!!
 
-	7. 
+2022-01-27
+
+	7. 회원 서비스 개발
+	  -. Service에서 로직 개발
+	  -.         memberRepository.findByName(member.getName())
+           		     .ifPresent(m -> {
+                	          throw new IllegalStateException("이미 존재하는 회원입니다.");
+           		});
+		완죤 처음보는 코드...
+
+	8. 
 
 
 
