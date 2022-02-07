@@ -110,7 +110,15 @@
 
 	4. 보통 한 패키지안에 한개의 controller service repository가 연결
 
-	5. 
+2022-02-08
+-. 웹 MVC 맛보기
+	1. @GetMapping // @PostMapping 차이점은 대강 알거고
+	
+	2. Form에서 받은 input에서 name으로 설정한 값이 post방식으로 넘어온다
+
+
+-. 스프링 DB 접근 기술
+	1. 
 
 
 
