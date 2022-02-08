@@ -154,6 +154,14 @@
 		.- 여기는 아직 무리...데스?
 		.- 복잡한 쿼리문을 아주 쉽게 인터페이스로 만들어놨음 불러오기만 하면 됨
 
+	
+-. AOP (Aspect Oriented Programming)
+
+	1. 공통 관심 사항과 핵심 관심 사항을 분리
+	
+	2. 컨트롤러에서 프록시 service를 호출 후 joinPoint.proceed()를 통해 실제 service로 이동
+
+	3. 
 
 
 
