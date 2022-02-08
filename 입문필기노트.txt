@@ -125,7 +125,11 @@
 	
 
 	2. 순수 JDBC
-		.- 
+		.- build.gradle에 코드 추가 후 gradle refresh후 application.properties에 url과 driver-class-name추가
+		.- connection이랑 pre~~랑 resultSet같은걸로 db연결하는거...
+		.- 개방 폐쇄 원칙(OCP, Open-Closed Principle) : 확장에는 열려있고, 수정, 변경에는 닫혀있다.
+		.- DI를 활용
+		
 
 
 
