@@ -132,10 +132,15 @@
 		
 
 
+	3. Spring 컨테이너
+		.- 트랜잭션 -> db에서 insert가 될 때 커밋을 하냐 안하냐?
+		.- @SpringBootTest -> 말 그대로 Test를 위한 어노테이션
+		.- @Transactional -> Test 시 db에 값을 커밋을 하지 않고 롤백을 해주는 어노테이션
+		.- 통합테스트보다는 단위테스트가 더 추천
+		
 
-
-
-
+	4. 스프링 JDBC Template
+		.- 
 
 
 
