@@ -140,8 +140,10 @@
 		
 
 	4. 스프링 JDBC Template
-		.- 
+		.- 스프링 JdbcTemplate과 MyBatis 같은 라이브러리는 JDBC API에서 본 반복 코드를 대부분 제거해준다. 하지만 SQL은 직접 작성해야 한다.
 
+	5. JPA
+		.- 
 
 
 
